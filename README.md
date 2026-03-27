@@ -1,33 +1,54 @@
-# 🚀 Azure Data Engineering Project (Medallion Architecture)
+# 🚀 End-to-End Azure Data Engineering Project
 
-## 📌 Project Overview
-This project demonstrates an end-to-end data engineering pipeline using Azure services and Databricks. It follows the Medallion Architecture (Bronze, Silver, Gold) to process and transform data for analytics.
+🚀 Built a scalable data pipeline to process raw data into clean and structured data using Azure ecosystem.
+
+---
+
+## 📌 Project Summary
+This project demonstrates a real-world data engineering pipeline using Medallion Architecture (Bronze, Silver, Gold).
+
+---
 
 ## 🏗️ Architecture
 ![Architecture](medallion.PNG)
 
-## 🔄 Pipeline Workflow
-1. Data is extracted from GitHub (CSV files)
-2. Loaded into Azure Data Lake (Bronze layer)
-3. Cleaned using Databricks (Silver layer)
-4. Converted into business data (Gold layer)
-5. Used in Power BI dashboard
+---
 
-## ⚙️ Key Features
-- Incremental Data Load
-- Data Cleaning
-- SCD Type 1 (Upsert)
-- Delta Lake
+## 🔄 Data Pipeline Workflow
 
-## 🛠️ Tools Used
-- Azure Data Factory
-- Azure Data Lake
-- Databricks
-- Power BI
+- 📥 Data Ingestion: Data extracted from GitHub using Azure Data Factory  
+- 🟫 Bronze Layer: Raw data stored in Azure Data Lake  
+- 🟪 Silver Layer: Data cleaned using Databricks (removed duplicates, handled null values)  
+- 🟨 Gold Layer: Structured data created using Delta Lake for analysis  
 
-## 📸 Screenshots
-(Will add soon)
+---
 
-## 🎯 Learning
-- Learned data pipeline
-- Learned Azure tools
+## 📊 Example Use Case
+
+Processed sales/order data to:
+- Clean and standardize raw data  
+- Remove duplicates  
+- Prepare structured datasets for analysis  
+
+---
+
+## 🛠️ Tech Stack
+
+- Azure Data Factory  
+- Azure Data Lake Storage  
+- Azure Databricks  
+- Delta Lake  
+
+---
+
+## 📸 Project Screenshots
+(Add screenshots below)
+
+---
+
+## 🎯 Key Learnings
+
+- Built end-to-end data pipeline  
+- Implemented Medallion Architecture  
+- Worked with Azure data services  
+- Performed data cleaning and transformation  
