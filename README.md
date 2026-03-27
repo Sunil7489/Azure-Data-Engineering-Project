@@ -4,7 +4,7 @@
 This project demonstrates an end-to-end data engineering pipeline using Azure services and Databricks. It follows the Medallion Architecture (Bronze, Silver, Gold) to process and transform data for analytics.
 
 ## 🏗️ Architecture
-(Will add image here later)
+![Architecture](medallion.PNG)
 
 ## 🔄 Pipeline Workflow
 1. Data is extracted from GitHub (CSV files)
